@@ -60,6 +60,8 @@ main {
 .right-main-col {
     width: calc( 100% - 200px);
     height: 100%;
+    overflow-y: auto;
+    background-color: #141922;
 }
 
 /* LEFT NAVIGATION AREA */
@@ -136,6 +138,82 @@ main {
     vertical-align: middle;
     margin-right: 0.5rem;
 }
+
+/* RIGHT COLUMN MAIN CONTENT*/
+
+/* UPGRADE BOX */
+
+.upgrade-box {
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: end;
+    padding-right: 40px;
+    position: fixed;
+    width: calc( 100% - 200px);
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.upgrade-button {
+    padding: 1rem 3rem;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.upgrade-button a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.upgrade-button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* MAIN CONTAINER */
+
+.main-container {
+    overflow-y: auto;
+    padding-top: 140px;
+}
+
+.lyst-type ul {
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-size: 0.8rem;
+}
+
+.lyst-type li {
+    margin-right: 1rem;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.evidenza-hr {
+    width: 30px;
+    margin-left: 30px;
+    border: 1px solid #adff2e;
+    margin-top: 4px;
+}
+
+.cols-container {
+    margin: 0 auto;
+    width: 98%;
+    max-width: 1500px;
+    justify-content: space-evenly;
+}
+
+.col {
+    width: calc((100%/6) - 1rem);
+
+    /* test */
+    border: 1px solid coral;
+    color: white;
+}
+
+
 
 /* FOOTER */
 
