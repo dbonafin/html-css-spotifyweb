@@ -6,11 +6,6 @@
 
 /* DEBUG */
 
-
-.left-nav-col {
-    background-color: lightblue;
-}
-
 .right-main-col {
     background-color: bisque;
 }
@@ -33,9 +28,16 @@ img {
     display: flex;
 }
 
-li a {
+a {
     text-decoration: none;
-    color: black;
+    color: #646464;
+
+}
+
+h2,
+h3,
+h4 {
+    color: white;
 }
 
 /* MAIN */
@@ -45,51 +47,78 @@ li a {
 main {
     width: 100%;
     height: calc( 100vh - 120px);
+    color: #646464;
 }
 
 .left-nav-col {
-    width: 220px;
+    width: 200px;
     height: 100%;
     overflow-y: hidden;
     flex-direction: column;
+    background-color: black;
 }
 
 .right-main-col {
-    width: calc( 100% - 220px);
+    width: calc( 100% - 200px);
     height: 100%;
 }
 
 /* LEFT NAVIGATION AREA */
 
 .logo {
-    width: 200px;
-    padding: 2rem 1rem
+    width: 180px;
+    padding: 1rem 1rem;
 }
 
 .playlist-area {
     flex-grow: 1;
+    padding: 1rem;
+}
+
+.playlist-area li {
+    list-style-type: none;
+    margin: 0.8rem 0;
+
 }
 
 .download-area {
     align-self: flex-end;
+    width: 100%;
+    padding: 1rem;
+}
+
+.download-area hr {
+    margin: 1rem 0;
 }
 
 .icon-box {
     margin: 1rem;
+    height: 40px;
 }
 
 .border-left {
-    border-left: 3px solid red;
+    border-left: 3px solid #adff2e;
     padding-left: 13px;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 0;
+    padding-top: 6px;
 }
 
 .nav-icon {
-    width: 30px;
+    width: 25px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.download-area h4 {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.plus-big-icon {
+    vertical-align: middle;
+    margin-right: 0.5rem;
 }
 
 /* FOOTER */
