@@ -72,6 +72,10 @@ main {
     padding: 2rem 1rem;
 }
 
+.small-logo {
+    display: none;
+}
+
 .playlist-area {
     flex-grow: 1;
     padding-left: 1rem;
@@ -193,6 +197,7 @@ main {
 .main-container {
     overflow-y: auto;
     padding-top: 140px;
+    padding-bottom: 80px;
 }
 
 /* TOP PART OF THE MAIN SECTION */
@@ -282,6 +287,16 @@ main {
     display: block;
 }
 
+/* ARTISTI PIU POPOLARI SECTION */
+
+.circle-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 130px;
+    vertical-align: middle;
+    text-align: center;
+}
+
 
 /* FOOTER */
 
@@ -331,5 +346,56 @@ RESPONSIVE
         width: calc((100%/2) - 1rem);
         margin: 1rem 0.4rem;
     }
+}
+
+/* DISPLAY SIZE XS */
+
+@media all and (max-width: 600px) {
+    
+    .left-nav-col {
+        width: 60px;
+        padding-top: 0;
+    }
+
+    .left-nav-col h4, span {
+        display: none;
+    }
+
+    .logo {
+        width: 60px;
+        padding: 0.5rem 1rem;
+    }
+
+    .big-logo {
+        display: none;
+    }
+
+    .small-logo {
+        display: block;
+    }
+
+    .icon-box {
+        height: 35px;
+    }
+
+    .right-main-col {
+        width: calc(100% - 60px);
+    }
+
+    .upgrade-box {
+        width: calc(100% - 60px);
+    }
+
+    .playlist-title,
+    .playlist-area {
+        display: none;
+    }
+
+    .download-area {
+        padding: 1rem;
+        margin-top: 690px;
+    }
+
+
 }
 
