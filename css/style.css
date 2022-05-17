@@ -55,6 +55,7 @@ main {
     overflow-y: hidden;
     flex-direction: column;
     background-color: black;
+    padding-top: 1rem;
 }
 
 .right-main-col {
@@ -67,7 +68,7 @@ main {
 /* LEFT NAVIGATION AREA */
 
 .logo {
-    width: 180px;
+    width: 190px;
     padding: 2rem 1rem;
 }
 
@@ -75,6 +76,7 @@ main {
     flex-grow: 1;
     padding: 1rem;
     overflow-y: auto;
+    min-height: 40%;
 }
 
 .playlist-area li {
@@ -144,7 +146,7 @@ main {
 /* UPGRADE BOX */
 
 .upgrade-box {
-    height: 120px;
+    height: 130px;
     background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
     justify-content: end;
@@ -179,14 +181,16 @@ main {
     padding-top: 140px;
 }
 
-.lyst-type ul {
+.list-type ul {
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     font-size: 0.8rem;
 }
 
-.lyst-type li {
+.list-type li {
     margin-right: 1rem;
+    margin-bottom: 1rem;
     list-style-type: none;
     text-transform: uppercase;
 }
@@ -205,6 +209,14 @@ main {
     justify-content: space-evenly;
 }
 
+.main-section-albums h2 {
+    padding-left: 0.7rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    width: 98%;
+    max-width: 1500px;
+}
+
 .col {
     width: calc((100%/6) - 1rem);
 
@@ -214,7 +226,6 @@ main {
 }
 
 
-
 /* FOOTER */
 
 footer {
@@ -222,4 +233,46 @@ footer {
     height: 120px;
 }
 
+
+/****** 
+RESPONSIVE
+*******/
+
+
+/* DISPLAY SIZE MD */
+
+@media all and (max-width:1100px) {
+
+    .list-type {
+        width: 77%;
+        margin: auto;
+    }
+
+    .list-type ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cols-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .col {
+        width: calc((100%/4) - 1rem);
+        margin: 1rem 0.4rem;
+    }
+    
+}
+
+
+/* DISPLAY SIZE S */
+
+@media all and (max-width: 700px) {
+
+    .col {
+        width: calc((100%/2) - 1rem);
+        margin: 1rem 0.4rem;
+    }
+}
 
