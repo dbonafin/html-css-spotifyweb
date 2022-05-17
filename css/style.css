@@ -430,6 +430,10 @@ footer {
     left: 90%;
 }
 
+.time-line:hover .progress-bar {
+    cursor: pointer;
+}
+
 .progress-bar:hover .green-time {
     display: block;
 }
@@ -437,7 +441,6 @@ footer {
 .progress-bar:hover .progressed-time {
     display: none;
 }
-
 
 
 /****** 
@@ -481,6 +484,7 @@ RESPONSIVE
         margin: 1rem 0.4rem;
     }
 }
+
 
 /* DISPLAY SIZE XS */
 
