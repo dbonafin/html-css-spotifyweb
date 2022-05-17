@@ -115,7 +115,7 @@ main {
     vertical-align: middle;
 }
 
-.nav-icon:not(.border-left .nav-icon) {
+.left-nav-col .nav-icon:not(.border-left) {
     filter: opacity(0.6);
 }
 
@@ -294,7 +294,7 @@ main {
 footer {
     width: 100%;
     height: 100px;
-    color: #707070;
+    color: white;
     background-color: #282828;
 }
 
@@ -305,11 +305,15 @@ footer {
 }
 
 .footer-content a:hover {
-color: white;
+    color: white;
 }
 
 .underline-text:hover {
     text-decoration: underline;
+}
+
+.third-part-player a {
+    filter: opacity(1);
 }
 
 .footer-content ul {
@@ -332,6 +336,10 @@ color: white;
 .third-part-player {
     width: 300px;
     padding-left: 0.5rem;
+}
+
+.third-part-player a {
+    color: white;
 }
 
 .footer-content li {
