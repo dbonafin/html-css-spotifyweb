@@ -95,7 +95,7 @@ main {
 }
 
 .download-area hr {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 .icon-box {
@@ -199,8 +199,6 @@ main {
 
 .list-type ul {
     justify-content: center;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
     font-size: 0.8rem;
 }
 
@@ -221,26 +219,32 @@ main {
 /* RECENTLY PLAYED SECTION */
 
 .cols-container {
-    margin: 0 auto;
+    margin: auto;
     width: 98%;
     max-width: 1500px;
-    justify-content: space-evenly;
 }
 
 .main-section-albums h2 {
-    padding-left: 0.7rem;
-    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
     margin: 0 auto;
     width: 98%;
     max-width: 1500px;
+}
+
+.gray-text {
+    padding-left: 0.5rem;
+    margin: 0 auto;
+    width: 98%;
+    max-width: 1500px;
+    display: block;
 }
 
 .col {
     width: calc((100%/6) - 1rem);
-
-    /* test */
-    border: 1px solid coral;
-    color: white;
+    margin-right: 1rem;
+    color: #646464;
 }
 
 .card {
@@ -258,6 +262,7 @@ main {
 }
 
 .overlay-hover-effect {
+    color: white;
     position: absolute;
     left: 50%;
     top: 50%;
