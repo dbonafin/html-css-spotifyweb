@@ -217,6 +217,7 @@ main {
     margin: auto;
     width: 98%;
     max-width: 1500px;
+    padding-top: 0.5rem;
 }
 
 .main-section-albums h2 {
@@ -230,7 +231,7 @@ main {
 
 .gray-text {
     padding-left: 0.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     margin: 0 auto;
     width: 98%;
     max-width: 1500px;
@@ -526,9 +527,20 @@ RESPONSIVE
 
     .download-area {
         padding: 1rem;
-        margin-top: 690px;
+        margin-top: 660px;
     }
 
+    .fa-2x {
+        font-size: 1rem;
+    }
+
+    .footer-content h4 {
+        font-size: 0.6rem;
+    }
+
+    .footer-content li {
+        margin-right: 0.2rem;
+    }
 
 }
 
