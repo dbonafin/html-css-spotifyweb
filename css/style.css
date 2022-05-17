@@ -325,21 +325,30 @@ footer {
 }
 
 .first-part-player {
-    width: 390px;
+    width: 30%;
     padding-left: 0.5rem;    
 }
 
 .second-part-player {
     flex-grow: 1;
+    height: 100%;
+}
+
+.second-part-player ul {
+    justify-content: center;
 }
 
 .third-part-player {
-    width: 300px;
+    width: 30%;
     padding-left: 0.5rem;
 }
 
 .third-part-player a {
     color: white;
+}
+
+.third-part-player ul {
+    justify-content: flex-end;
 }
 
 .footer-content li {
@@ -350,7 +359,38 @@ footer {
     width: 50px;
     display: inline-block;
 }
+
+/* CENTRAL SECTION OF THE PLAYER */
+
+/* TOP PART */
  
+.top-central-player {
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.top-central-player a {
+    margin-right: 1rem;
+    color: white;
+}
+
+.play-music:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+/* BOTTOM PART */
+
+.bottom-central-player {
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.bottom-central-player a {
+    color: white;
+}
+
 
 
 /****** 
