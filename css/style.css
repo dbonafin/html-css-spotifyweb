@@ -321,17 +321,18 @@ footer {
 }
 
 .footer-content li {
-    margin-right: 1rem;
+    margin-right: 0.4rem;
 }
 
 .first-part-player {
-    width: 30%;
+    width: 25%;
     padding-left: 0.5rem;    
 }
 
 .second-part-player {
     flex-grow: 1;
     height: 100%;
+    width: 40%;
 }
 
 .second-part-player ul {
@@ -339,8 +340,9 @@ footer {
 }
 
 .third-part-player {
-    width: 30%;
+    width: 25%;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .third-part-player a {
@@ -389,6 +391,50 @@ footer {
 
 .bottom-central-player a {
     color: white;
+}
+
+.player-controller {
+    width: 100%;
+}
+
+.time-line {
+    width: 60%;
+}
+
+.progress-bar {
+    height: 5px;
+    background-color: #5a5a5a;
+    border-radius: 20px;
+}
+
+.progressed-time {
+    height: 100%;
+    width: 20%;
+    background-color: #c1c1c1;
+    border-radius: 20px;
+}
+
+.green-time {
+    display: none;
+    height: 100%;
+    width: 20%;
+    background-color: greenyellow;
+    border-radius: 20px;
+    position: relative;
+}
+
+.progression-circle {
+    position: absolute;
+    bottom: -5px;
+    left: 90%;
+}
+
+.progress-bar:hover .green-time {
+    display: block;
+}
+
+.progress-bar:hover .progressed-time {
+    display: none;
 }
 
 
